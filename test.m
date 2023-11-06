@@ -1,5 +1,5 @@
 % Load and preprocess a new image (adjust as needed)
-newImage = imread("DEER3.jpg");
+newImage = imread("DEER3.jpg");    %add your test image here
 newImage = imresize(newImage, [32, 32]);
 newImage = double(newImage) / 255;
 
